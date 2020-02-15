@@ -1,0 +1,93 @@
+
+
+.abc{
+    background-image: url('../assets/bg_humit.png');
+    text-align:center ;
+    background-repeat: no-repeat ;
+    background-size: 100%
+}
+
+#ip2 {
+    border-radius: 23px;
+    border: 2px solid #677897;
+    padding: 20px; 
+    width: 100%;
+    height: 10px;    
+}
+
+.btn.early{
+    position: absolute;
+    right: 15px;
+    margin-top:2px;
+    height:40px
+}
+
+
+
+
+.container.first
+{
+    margin-top: 5%
+}
+
+
+.container.second
+{
+    margin-top: 20%
+}
+
+
+.container.third
+{
+    margin-top: 5%
+}
+
+.container.fourth
+{
+    margin-top: 20%
+}
+
+.container.fifth
+{
+    margin-top: 5%
+}
+
+.container.sixth
+{
+    margin-top: 10%
+}
+
+.container.seventh
+{
+    margin-top : 5%
+}
+
+.img-fluid.signup
+{
+max-width: 95%;
+}
+
+
+
+
+
+.img-fluid.mobile{
+    max-width: 70%;
+    margin-left : -55%
+}
+
+.img-fluid.starboy
+{
+    max-width: 73%;
+}
+
+.img-fluid.bio{
+    max-width: 90%;
+
+     margin-left: 12%;
+}
+
+.header-text
+{
+
+}
