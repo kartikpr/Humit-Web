@@ -1,5 +1,4 @@
 
-
 .abc{
     background-image: url('../assets/bg_humit.png');
     text-align:center ;
@@ -10,16 +9,109 @@
 #ip2 {
     border-radius: 23px;
     border: 2px solid #677897;
-    padding: 20px; 
+    padding: 20px;
     width: 100%;
-    height: 10px;    
+    height: 10px;
+}
+
+
+#ip2::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-size: 14px
+
+}
+
+.cursorText{
+  text-align: left;
+  font-size:36px;
+  width:100%;
+  line-height: 1.42;
+  color:#ffffff;
+  font-family: 'Montserrat'
 }
 
 .btn.early{
-    position: absolute;
+    float : left;
     right: 15px;
-    margin-top:2px;
-    height:40px
+    margin-top:0px;
+    height:44px;
+    width:40%;
+    border-color: #483546;
+    font-family: Montserrat;
+    font-size: 16px
+
+}
+
+.getEarlyAccessBtnTwo{
+  font-family: Montserrat;
+  border-color: #483546;
+  width: 15% ;
+  background:linear-gradient(74deg , #f7618b 2%, #2a7aff 123%) ;
+  border-radius: 100px
+}
+
+
+.vinylTextFlexFirstText
+{
+  text-align:left ;
+  font-size:26px;
+  width:60%;
+  line-height: 1.42;
+  color:#ffffff;
+  font-family: 'Montserrat'
+}
+
+.vinylTextFlexSecondText{
+  padding-top:2% ;
+  font-size:12px;
+  width:65%;
+  line-height: 1.88;
+  color:#677897 ;
+  font-family: 'Montserrat';
+  text-align:left ;
+}
+
+
+.mobileTextFlexFirstText{
+
+  text-align:left ;
+  font-size:26px;
+  width:65%;
+  line-height: 1.42;
+  color:#ffffff;
+  font-family: 'Montserrat'
+}
+
+.mobileTextFlexSecondText{
+  padding-top:2% ;
+  font-size:12px;
+  width:65%;
+  line-height: 1.88;
+  color:#677897 ;
+  font-family: 'Montserrat';
+  text-align:left ;
+}
+
+
+.bioTextFlexFirstText{
+  text-align:left ;
+  font-size:26px;
+  width:75%;
+  line-height: 1.42;
+  color:#ffffff;
+  font-family: 'Montserrat'
+}
+
+.bioTextFlexSecondText{
+  padding-top:2% ;
+  font-size:12px;
+  width:57%;
+  line-height: 1.88;
+  color:#677897 ;
+  font-family: 'Montserrat';
+  text-align:left ;
+
+
 }
 
 
@@ -33,23 +125,23 @@
 
 .container.second
 {
-    margin-top: 20%
+    margin-top: 15%
 }
 
 
 .container.third
 {
-    margin-top: 5%
+    margin-top: 10%
 }
 
 .container.fourth
 {
-    margin-top: 20%
+    margin-top: 15%
 }
 
 .container.fifth
 {
-    margin-top: 5%
+    margin-top: 10%
 }
 
 .container.sixth
@@ -62,6 +154,10 @@
     margin-top : 5%
 }
 
+.container.eight
+{
+    padding-bottom:  5px
+}
 .img-fluid.signup
 {
 max-width: 95%;
@@ -72,20 +168,184 @@ max-width: 95%;
 
 
 .img-fluid.mobile{
-    max-width: 70%;
-    margin-left : -55%
+    max-width: 60%;
+    margin-left : -35%
 }
 
 .img-fluid.starboy
 {
-    max-width: 73%;
+    max-width: 100%;
 }
 
 .img-fluid.bio{
     max-width: 90%;
 
-     margin-left: 12%;
+     margin-left: ;
 }
+
+.iconDiv{
+  width : 15%;
+  margin-right: 5%;
+}
+
+.img-fluid.bottomIconApple
+{
+max-width: 50%;
+margin-top: 5%
+}
+.img-fluid.bottomIconSoundCloud{
+  max-width : 40%
+
+}
+
+.img-fluid.peterCat{
+  margin-top: -23%;
+  margin-left: -35%;
+}
+
+.img-fluid.steveJobs
+{
+max-width: 70%;
+}
+
+.img-fluid.vinyl
+{
+   margin-top: -20%;
+}
+
+.img-fluid.play
+{
+max-width: 70%;
+}
+
+.img-fluid.footer{
+  margin-top: 15%;
+  max-width: 40%;
+}
+@media only screen and
+    (max-device-width : 425px)
+    {
+
+      .abc{
+        background-color: #132638;
+      }
+      .img-fluid.peterCat{
+        margin-top: 5%;
+        margin-left: -20%;
+      }
+
+
+      .cursorText{
+        font-size: 28px;
+      }
+
+      .img-fluid.starboy
+      {
+          max-width: 95%;
+      }
+
+      .container.second
+      {
+          margin-top: 25%
+      }
+
+      .img-fluid.vinyl
+      {
+         max-width: 85%;
+      }
+
+
+      .vinylTextFlex
+      {
+        align-items: center;
+      }
+
+      .vinylTextFlexFirstText{
+        text-align: center;
+        width : 75%
+      }
+
+      .vinylTextFlexSecondText{
+        text-align: center;
+        width : 80%;
+      }
+
+      .container.third{
+
+        margin-top: 20%
+
+      }
+
+      .img-fluid.mobile{
+        margin-left: 0%;
+      }
+
+
+      .mobileTextFlexFirstText{
+        text-align: center;
+        width: 75%
+
+      }
+
+      .mobileTextFlexSecondText{
+        text-align: center;
+        width:80%
+      }
+
+      .container.fourth{
+
+        margin-top: 20%
+
+      }
+
+      .bioTextFlex{
+        align-items: center;
+      }
+
+      .bioTextFlexFirstText{
+        text-align: center;
+        width: 75%;
+      }
+
+      .bioTextFlexSecondText{
+        text-align: center;
+        width: 80%;
+      }
+
+      .getEarlyAccessBtnTwo{
+        width : 40%
+      }
+
+      .container.seventh{
+        margin-top: 15%;
+      }
+
+      .img-fluid.footer{
+        max-width: 60%
+      }
+
+
+
+
+     }
+
+
+     @media only screen and
+         (max-device-width : 375px)
+         {
+           .cursorText{
+             font-size: 24px;
+           }
+
+           .btn.early{
+             width: 60%
+           }
+
+
+         }
+
+
+
 
 .header-text
 {
