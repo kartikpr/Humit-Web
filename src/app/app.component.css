@@ -63,7 +63,7 @@
 
 .vinylTextFlexSecondText{
   padding-top:2% ;
-  font-size:12px;
+  font-size:14px;
   width:65%;
   line-height: 1.88;
   color:#677897 ;
@@ -84,7 +84,7 @@
 
 .mobileTextFlexSecondText{
   padding-top:2% ;
-  font-size:12px;
+  font-size:14px;
   width:65%;
   line-height: 1.88;
   color:#677897 ;
@@ -104,7 +104,7 @@
 
 .bioTextFlexSecondText{
   padding-top:2% ;
-  font-size:12px;
+  font-size:14px;
   width:57%;
   line-height: 1.88;
   color:#677897 ;
@@ -224,6 +224,7 @@ max-width: 70%;
 }
 @media only screen and
     (max-device-width : 425px)
+
     {
 
       .abc{
@@ -236,7 +237,7 @@ max-width: 70%;
 
 
       .cursorText{
-        font-size: 28px;
+        font-size: 26px;
       }
 
       .img-fluid.starboy
@@ -324,6 +325,11 @@ max-width: 70%;
         max-width: 60%
       }
 
+      .btn.early{
+        width: 50%
+      }
+
+
 
 
 
@@ -338,11 +344,72 @@ max-width: 70%;
            }
 
            .btn.early{
-             width: 60%
+             width: 50%
            }
 
 
          }
+
+         @media only screen and
+             (max-device-width : 320px){
+
+               .btn.early{
+                 width: 55%
+               }
+
+             }
+
+         @media only screen and
+             (max-width : 920px)
+
+             {
+               .abc{
+                 background-color: #132638;
+               }
+
+             }
+
+@media only screen
+and (max-device-width : 992px) and
+  (orientation : landscape)
+
+             {
+               .btn.early{
+                 width: 70%
+               }
+               .getEarlyAccessBtnTwo{
+                 width : 30%
+               }
+
+               .bioTextFlexSecondText{
+                 font-size: 12px
+
+               }
+
+               .vinylTextFlexSecondText{
+                 font-size: 12px
+
+
+               }
+
+               .mobileTextFlexSecondText{
+                 font-size: 12px
+
+
+               }
+
+
+             }
+
+             @media only screen
+             and (max-width : 992px) and
+             (min-width : 576px) {
+               .btn.early{
+                 width: 70%
+               }
+
+             }
+
 
 
 
